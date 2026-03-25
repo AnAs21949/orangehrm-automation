@@ -7,16 +7,9 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                git branch: 'main',
-                    url: 'https://github.com/TON_USER/orangehrm-automation.git'
-            }
-        }
-
         stage('Run Tests') {
             steps {
-                bat 'mvn clean test'  // bat = Windows, sh = Linux/Mac
+                bat 'mvn clean test'
             }
         }
 
