@@ -18,12 +18,14 @@ public class LoginPage {
     By passwordField = By.name("password");
     By loginButton = By.cssSelector("button[type='submit']");
 
-    public void login(String username,String password){
+    public void login(String username, String password) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(usernameField));
         driver.findElement(usernameField).sendKeys(username);
         driver.findElement(passwordField).sendKeys(password);
         driver.findElement(loginButton).click();
-        new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.urlContains("dashboard"));
 
+        wait.until(ExpectedConditions.urlContains("dashboard"));
     }
 }
