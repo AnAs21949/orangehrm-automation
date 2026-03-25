@@ -28,7 +28,7 @@
 
 ---
 
-## 🏗 Project Architecture
+## Project Architecture
 
 ```
 orangehrm-automation/
