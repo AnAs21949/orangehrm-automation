@@ -1,15 +1,15 @@
 
 ## Table of Contents
 
-- [Tech Stack](#-tech-stack)
-- [Project Architecture](#-project-architecture)
-- [Test Coverage](#-test-coverage)
-- [Setup & Installation](#-setup--installation)
-- [Running Tests](#-running-tests)
-- [CI/CD Pipeline](#-cicd-pipeline)
-- [Test Reports](#-test-reports)
-- [Key Design Decisions](#-key-design-decisions)
-- [Author](#-author)
+- Tech Stack
+- [Project Architecture]
+- [Test Coverage]
+- [Setup & Installation]
+- [Running Tests]
+- [CI/CD Pipeline]
+- [Test Reports]
+- [Key Design Decisions]
+- [Author]
 
 ---
 
